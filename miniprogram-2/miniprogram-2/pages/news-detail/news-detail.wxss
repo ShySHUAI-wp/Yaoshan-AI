@@ -1,0 +1,157 @@
+.detail-page {
+  background-color: #fff;
+  min-height: 100vh;
+}
+.media-area {
+  width: 100%;
+  height: 600rpx;
+}
+.video-player {
+  width: 100%;
+  height: 100%;
+}
+.header-area {
+  padding: 20rpx;
+}
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 16rpx;
+  line-height: 1.5;
+}
+.interact-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  padding: 16rpx 0;
+}
+.interact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-bottom: 8rpx;
+}
+.num {
+  font-size: 24rpx;
+  color: #666;
+}
+.content-area {
+  padding: 20rpx;
+}
+.section-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin: 30rpx 0 20rpx;
+  color: #333;
+}
+.step-item {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.step-num {
+  width: 60rpx;
+  height: 60rpx;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.step-desc {
+  font-size: 28rpx;
+  line-height: 1.6;
+  color: #666;
+}
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20rpx;
+}
+.tag {
+  padding: 8rpx 20rpx;
+  background-color: #f5f5f5;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  margin-right: 16rpx;
+  margin-bottom: 16rpx;
+}
+.note-desc {
+  font-size: 28rpx;
+  line-height: 1.6;
+  color: #666;
+}
+.author-area {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  border-top: 1rpx solid #eee;
+}
+.author-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.author-info {
+  flex: 1;
+}
+.author-name {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+}
+.author-desc {
+  font-size: 24rpx;
+  color: #999;
+}
+.follow-btn {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  border-radius: 30rpx;
+  background-color: #ff2442;
+  color: #fff;
+}
+.related-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  padding: 20rpx;
+  border-top: 1rpx solid #eee;
+}
+.related-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20rpx 40rpx;
+}
+.related-item {
+  width: 50%;
+  padding: 0 10rpx 20rpx;
+  box-sizing: border-box;
+}
+.related-cover {
+  width: 100%;
+  height: 200rpx;
+  border-radius: 12rpx;
+  margin-bottom: 8rpx;
+}
+.related-title {
+  font-size: 28rpx;
+  line-height: 1.4;
+  margin-bottom: 4rpx;
+  padding: 0;
+  font-weight: normal;
+}
+.related-play {
+  font-size: 24rpx;
+  color: #999;
+}

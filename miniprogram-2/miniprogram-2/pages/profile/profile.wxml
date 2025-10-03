@@ -1,2 +1,43 @@
-<!--pages/profile/profile.wxml-->
-<view></view>
+<!-- 顶部个人信息区域 -->
+<view class="top-container">
+  <image class="bg-image" src="/assets/主页.png" mode="widthFix"></image>
+  <view class="user-info">
+    <image class="avatar" src="/assets/微信图片_2025-10-02_104635_943.jpg" mode="cover"></image>
+    <view class="user-name">周祉佑</view>
+    <view class="user-tag">养生之道</view>
+    <view class="health-days">平和体质 · 坚持养生98天</view>
+  </view>
+</view>
+
+<!-- 健康画像模块 -->
+<view class="health-card">
+  <view class="card-header">
+    <text class="card-title">健康画像</text>
+    <text class="view-detail">查看详情</text>
+  </view>
+  <view class="update-time">最近更新：2023年10月15日</view>
+  <view class="health-items">
+    <view class="health-item" wx:for="{{healthItems}}" wx:key="text">
+      <image class="item-icon" src="{{item.icon}}" mode="cover"></image>
+      <text class="item-text">{{item.text}}</text>
+    </view>
+  </view>
+</view>
+
+<!-- 账户与安全模块 -->
+<view class="account-section">
+  <view class="section-title">账户与安全</view>
+  <view class="account-list">
+    <view class="account-item" wx:for="{{accountItems}}" wx:key="text">
+      <image class="item-icon" src="{{item.icon}}" mode="cover"></image>
+      <text class="item-text">{{item.text}}</text>
+      <image class="arrow-right" src="/assets/多于.png" mode="cover"></image>
+    </view>
+  </view>
+</view>
+<!-- 注销账号 -->
+<view class="logout-item">
+  <image class="item-icon" src="" mode="cover"></image>
+  <text class="item-text">注销账号</text>
+  <image class="arrow-right" src="/assets/注销.png" mode="cover"></image>
+</view>

@@ -1,0 +1,58 @@
+/* pages/meal-yin/meal-yin.wxss */
+.page-container {
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50rpx;
+  color: #1D4331;
+}
+
+.stethoscope {
+  width: 100%;
+  border-radius: 10rpx;
+  margin-bottom: 50rpx;
+}
+
+.tip-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-bottom: 40rpx;
+  color: #1D4331;
+}
+
+.tip-content {
+  background-color: #ffffff;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  margin-bottom: 40rpx;
+}
+
+.notice-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 40rpx;
+  color: #1D4331;
+}
+
+.notice-list {
+  margin-bottom: 80rpx;
+}
+
+.notice-item {
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
+}
+
+.start-btn {
+  background-color: rgb(155, 170, 16) !important;
+  color: rgb(0, 0, 0);
+  font-size: 30rpx;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  
+}

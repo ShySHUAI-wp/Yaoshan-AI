@@ -1,0 +1,8 @@
+<view class="detail-container">
+  <image src="{{detail.image}}" mode="widthFix" class="detail-img"></image>
+  <view class="detail-title">{{detail.title}}</view>
+  <view class="detail-desc">{{detail.desc}}</view>
+  <view class="detail-tag">{{detail.suitable}}</view>
+  <view class="detail-collect">{{detail.collectTime}}</view>
+  <view class="detail-badge">配方</view>
+</view>

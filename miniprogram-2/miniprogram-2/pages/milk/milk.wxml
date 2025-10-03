@@ -2,13 +2,13 @@
 <view class="swiper">
   <swiper autoplay interval="3000" indicator-dots indicator-color>
     <swiper-item>
-      <image class="swiper-image" src="/assets/pills.png" mode="aspectFit" show-menu-by-longpress></image>
+      <image class="swiper-image" src="/assets/药膳4.png" mode="aspectFit" show-menu-by-longpress></image>
     </swiper-item>
     <swiper-item>
-      <image class="swiper-image" src="/assets/scan.png" mode="aspectFit" show-menu-by-longpress></image>
+      <image class="swiper-image" src="/assets/药膳6.jpg" mode="aspectFit" show-menu-by-longpress></image>
     </swiper-item>
     <swiper-item>
-      <image class="swiper-image" src="/assets/profile-active.png" mode="aspectFit" show-menu-by-longpress></image>
+      <image class="swiper-image" src="/assets/药膳7.jpg" mode="aspectFit" show-menu-by-longpress></image>
     </swiper-item>
   </swiper>
 </view>

@@ -57,5 +57,10 @@ Page({
       icon: 'loading',
       duration: 2000
     })
+    setTimeout(() => {
+      wx.navigateTo({
+        url: '/pages/milk-back/milk-back',
+      })
+    }, 2000);
   }
 })

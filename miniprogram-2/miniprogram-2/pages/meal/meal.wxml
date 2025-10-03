@@ -120,7 +120,6 @@
   </checkbox-group>
 </view>
 <view class="AI">
-  <!-- 核心：小程序<button> + 自定义圆形样式 -->
   <button class="circle-btn" bindtap="onGenerate" aria-lable="生成个性化药膳方案">
     生成我的药膳方案
   </button>

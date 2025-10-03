@@ -1,13 +1,20 @@
 /* pages/milk/milk.wxss */
 .swiper{
   height: auto;
+  width: 100%;
+  overflow: hidden;
 }
 .swiper-con{
   height:1500rpx;
+  width: 100%;
+  position: relative;
 }
 .swiper-image{
   width: 100%;
   height:100%;
+  object-fit: cover;
+  display: block;
+  object-position: center;
 }
 
 /* 顶部导航栏 */
@@ -41,7 +48,7 @@
 }
 /* 板块样式 */
 .section {
-  margin-bottom: 40rpx;
+  margin-bottom:40rpx;
 }
 .section-title {
   font-size: 28rpx;

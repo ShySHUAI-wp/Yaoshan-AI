@@ -9,13 +9,19 @@
     "pages/soup-detail/soup-detail",
     "pages/medicine/medicine",
     "pages/tea/tea",
-    "pages/milk-detail/milk-detail"
+    "pages/milk-detail/milk-detail",
+    "pages/meal-yin/meal-yin",
+    "pages/milk-back/milk-back",
+    "pages/news-detail/news-detail",
+    "pages/milk-tea-detail/milk-tea-detail",
+    "pages/login/login"
   ],
   "window": {
    "navigationBarTitleText": "智膳坊",
-   "navigationBarBackgroundColor": "#90ee90",
+   "navigationBarBackgroundColor": "#AC977A",
+   "navigationBarTextStyle":"black",
    "enablePullDownRefresh": false,
-   "backgroundColor": "#efefef"
+   "backgroundColor": "#FFFAF4"
   },
   "tabBar": {
     "borderStyle":"white",
@@ -28,7 +34,7 @@
       },
       {
         "text": "AI药膳",
-        "pagePath": "pages/meal/meal",
+        "pagePath": "pages/meal-yin/meal-yin",
         "iconPath": "/assets/meal.png",
         "selectedIconPath": "/assets/meal-active.png"
       },

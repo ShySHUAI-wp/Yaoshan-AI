@@ -1,66 +1,23 @@
-// pages/profile/profile.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    healthItems: [
+      { icon: '/assets/品质.png', text: '平和体质' },
+      { icon: '/assets/睡眠.png', text: '睡眠良好' },
+      { icon: '/assets/血压.png', text: '血压正常' }
+    ],
+    accountItems: [
+      { icon: '/assets/修改密码.png', text: '修改密码' },
+      { icon: '/assets/电话.png', text: '手机绑定' },
+      { icon: '/assets/第三方账号管理.png', text: '第三方账号管理' }
+    ]
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
+  onLoad: function () {
+    // 页面加载时可在此请求用户信息，动态更新数据
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
+  // 示例：查看健康画像详情的点击事件
+  viewHealthDetail: function () {
+    wx.navigateTo({
+      url: '/pages/milk/milk'
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
-})
+});

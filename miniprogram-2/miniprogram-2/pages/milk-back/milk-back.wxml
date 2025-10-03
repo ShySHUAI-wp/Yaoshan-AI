@@ -1,0 +1,115 @@
+<view class="page-container">
+  <!-- 顶部图片&标题 -->
+  <view class="banner">
+    <image src="/assets/三味安眠汤.jpg" mode="widthFix"></image>
+    <view class="banner-title">温补阳气枸杞炖鸡汤</view>
+  </view>
+
+  <!-- 基本信息 -->
+  <view class="info-card">
+    <view class="info-title">基本信息</view>
+    <view class="tags">
+      <view class="tag">温补阳气</view>
+      <view class="tag">强身健体</view>
+      <view class="tag">滋阴润燥</view>
+    </view>
+    <view class="info-desc">分类：温补类 | 适合：阳虚体质</view>
+  </view>
+
+  <!-- 体质适配说明 -->
+  <view class="section-card">
+    <view class="section-title">为什么适合您的体质</view>
+    <view class="section-content">
+      您的体质偏于阳虚，表现为怕冷、手脚凉、精神疲乏。本方中的枸杞具有滋补肝肾、益精明目的功效，配合鸡肉温补脾胃，能够有效改善阳虚症状，提升身体活力。黄芪和党参共同增强补气效果，协助全面调理体质。
+    </view>
+  </view>
+
+  <!-- 药膳成分 -->
+  <view class="section-card">
+    <view class="section-title">药膳成分</view>
+    <view class="ingredient-list">
+      <view class="ingredient-item">
+        <view class="ingredient-name">枸杞子</view>
+        <view class="ingredient-amount">30g</view>
+      </view>
+      <view class="ingredient-item">
+        <view class="ingredient-name">乌鸡</view>
+        <view class="ingredient-amount">半只</view>
+      </view>
+      <view class="ingredient-item">
+        <view class="ingredient-name">黄芪</view>
+        <view class="ingredient-amount">15g</view>
+      </view>
+      <view class="ingredient-item">
+        <view class="ingredient-name">党参</view>
+        <view class="ingredient-amount">10g</view>
+      </view>
+      <view class="ingredient-item">
+        <view class="ingredient-name">姜片</view>
+        <view class="ingredient-amount">3片</view>
+      </view>
+      <view class="ingredient-item">
+        <view class="ingredient-name">红枣</view>
+        <view class="ingredient-amount">5枚</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 制作方法 -->
+  <view class="section-card">
+    <view class="section-title">制作方法</view>
+    <view class="steps-list">
+      <view class="step-item">
+        <view class="step-num">1</view>
+        <view class="step-content">将乌鸡宰杀洗净，剁成小块，放入沸水中焯水3分钟，去除血水和异味，捞出备用。</view>
+      </view>
+      <view class="step-item">
+        <view class="step-num">2</view>
+        <view class="step-content">黄芪、党参用清水冲洗干净；枸杞子用温水浸泡5分钟后沥干；红枣去核；姜切片备用。</view>
+      </view>
+      <view class="step-item">
+        <view class="step-num">3</view>
+        <view class="step-content">将焯水后的鸡肉、黄芪、党参、红枣和姜片一起放入砂锅中，加入适量清水（没过食材约2厘米）。</view>
+      </view>
+      <view class="step-item">
+        <view class="step-num">4</view>
+        <view class="step-content">大火煮沸后，转小火慢炖1.5小时，使鸡肉炖至酥烂。</view>
+      </view>
+      <view class="step-item">
+        <view class="step-num">5</view>
+        <view class="step-content">最后10分钟加入枸杞子，继续小火煮至汤色浓郁，调入适量食盐即可。</view>
+      </view>
+      <view class="step-item">
+        <view class="step-num">6</view>
+        <view class="step-content">出锅前可以撒少许葱花提香，增添风味。</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 忌口建议 -->
+  <view class="section-card">
+    <view class="section-title">忌口建议</view>
+    <view class="taboo-list">
+      <view class="taboo-item">
+        <view class="taboo-tag">•</view>
+        <view class="taboo-content">辛辣刺激食物：如辣椒、花椒、生姜（大量），会扰乱本药膳的温补平衡。</view>
+      </view>
+      <view class="taboo-item">
+        <view class="taboo-tag">•</view>
+        <view class="taboo-content">生冷食物：如冷饮、冰淇淋、冰镇水果等，会抵消药膳的温补效果。</view>
+      </view>
+      <view class="taboo-item">
+        <view class="taboo-tag">•</view>
+        <view class="taboo-content">油腻食物：如肥肉、油炸食品，不利于脾胃消化吸收药膳营养。</view>
+      </view>
+      <view class="taboo-item">
+        <view class="taboo-tag">•</view>
+        <view class="taboo-content">服用期间避免饮酒，以免影响药效。</view>
+      </view>
+      <view class="taboo-item">
+        <view class="taboo-tag">•</view>
+        <view class="taboo-content">忌与西瓜、苦瓜等寒性食物同食。</view>
+      </view>
+    </view>
+  </view>
+</view>

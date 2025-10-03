@@ -40,9 +40,11 @@
 <view class="milk-tea-list" wx:if="{{currentTab === 'milkTea'}}">
   <block wx:for="{{milkTeaList}}" wx:key="index">
     <view class="medicine-item">
-      <view class="item-left">
-        <image src="{{item.image}}" mode="widthFix"></image>
-      </view>
+      <navigator url="/pages/milk-tea-detail/milk-tea-detail?id={{index}}">
+        <view class="item-left">
+          <image src="{{item.image}}" mode="widthFix"></image>
+        </view>
+      </navigator>
       <view class="item-middle">
         <view class="item-title">{{item.title}}</view>
         <view class="item-desc">{{item.desc}}</view>

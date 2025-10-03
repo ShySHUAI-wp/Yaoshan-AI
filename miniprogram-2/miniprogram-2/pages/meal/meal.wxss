@@ -6,7 +6,7 @@
 .title {
   font-size: 30rpx;
   font-weight: bold;
-  color: #1677ff;
+  color:#1D4331;
   margin-bottom: 20rpx;
 }
 .card {
@@ -91,13 +91,13 @@ radio {
   font-size: 24rpx;
   border: 2rpx solid #e5e5e5;
   border-radius: 8rpx;
-  background-color: #ffffff;
+  background-color:white;
   color: #666666;
 }
 .recent-btn-active {
-  background-color: #2e8ff0;
-  border-color: #2e8ff0;
-  color: #ffffff;
+  background-color:#304C76;
+  border-color: #304C76;
+  color : #ffffff;
 }
 /*身体状况自述部分渲染*/
 .tag-title {
@@ -126,7 +126,7 @@ radio {
   color: #666;
 }
 .tag-checked {
-  background-color: #1677FF;
+  background-color: #304C76;
   color: #FFFFFF;
 }
 /*疾病史部分*/
@@ -160,8 +160,8 @@ radio {
   position: relative;
 }
 .custom-checkbox.checked {
-  background-color: #1677FF;
-  border-color: #1677FF;
+  background-color:#304C76 ;
+  border-color: #304C76;
 }
 .check-icon::after {
   content: "";
@@ -196,12 +196,12 @@ radio {
   width: 240rpx;
   height: 240rpx;
   border-radius: 50%;
-  background-color: #0F4C81 !important; 
+  background-color: rgb(155, 170, 16) !important; 
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 34rpx;
-  color: #FFFFFF;
+  color: black;
   text-align: center;
   line-height: 1.2;
   padding: 0 20rpx; 

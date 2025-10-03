@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "药膳专区",
+  "navigationBarBackgroundColor": "#AC977A"
 }

@@ -6,12 +6,10 @@ Page({
   onLoad(options) {
     // 1. 获取从列表页传递的饮品id
     const drinkId = Number(options.id); // 转换为数字类型（与数据源保持一致）
-
     // 2. 获取数据源（两种方式，选其一）
     // 方式一：从全局数据获取（推荐，避免数据冗余）
     const app = getApp();
     const allDrinks = app.globalData.drinkDetails; // 需在app.js中定义globalData
-
     // 方式二：从列表页数据复制（简单但数据冗余）
     // const allDrinks = [
     //   { id: 1, ... }, // 与列表页的drinkDetails保持一致

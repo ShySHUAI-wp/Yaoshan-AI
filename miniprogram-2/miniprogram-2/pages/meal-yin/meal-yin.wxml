@@ -1,0 +1,17 @@
+<view class="page-container">
+  <view class="title">个性化健康档案</view>
+  <image class="stethoscope" src="/assets/个性化.jpg" mode="widthFix"></image>
+  <view class="tip-title">温馨提示</view>
+  <view class="tip-content">
+    为了给您提供更精准的健康评估和个性化建议，请如实填写以下健康信息。所有数据将严格保密，仅用于健康评估。
+  </view>
+  <view class="notice-title">填写须知</view>
+  <view class="notice-list">
+    <view class="notice-item">• 填写过程约需5-10分钟</view>
+    <view class="notice-item">• 可分多次完成，系统会自动保存</view>
+    <view class="notice-item">• 信息可随时更新修改</view>
+    <view class="notice-item">• 所有数据仅用于个人健康评估</view>
+    <view class="notice-item">• 请确保信息真实准确</view>
+  </view> 
+  <button class="start-btn" bindtap="goToFill">开始填写健康档案</button>
+</view>

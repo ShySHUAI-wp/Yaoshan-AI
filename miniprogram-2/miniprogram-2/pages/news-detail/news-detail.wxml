@@ -1,0 +1,72 @@
+<view class="detail-page">
+  <!-- 1. 媒体区域（视频/图文） -->
+  <view class="media-area">
+    <video class="video-player" src="{{videoUrl}}" poster="{{coverImg}}" controls></video>
+  </view>
+  <!-- 2. 标题与互动区 -->
+  <view class="header-area">
+    <view class="title">{{title}}</view>
+    <view class="interact-bar">
+      <view class="interact-item">
+        <image src="/assets/点赞.png" class="icon" />
+        <text class="num">{{likeNum}}万</text>
+      </view>
+      <view class="interact-item">
+        <image src="/assets/评论.png" class="icon" />
+        <text class="num">{{commentNum}}万</text>
+      </view>
+      <view class="interact-item">
+        <image src="/assets/collect.png" class="icon" />
+        <text class="num">{{collectNum}}万</text>
+      </view>
+    </view>
+  </view>
+  <!-- 3. 内容详情区 -->
+  <view class="content-area">
+    <view class="section-title">艾灸步骤</view>
+    <view class="step-item">
+      <view class="step-num">1</view>
+      <view class="step-desc">准备艾灸工具：艾灸盒、艾条、打火机、穴位图。</view>
+    </view>
+    <view class="step-item">
+      <view class="step-num">2</view>
+      <view class="step-desc">定位穴位：如大椎穴、足三里、关元穴等三伏天艾灸重点穴位。</view>
+    </view>
+    <view class="step-item">
+      <view class="step-num">3</view>
+      <view class="step-desc">点燃艾条，放入艾灸盒，置于穴位上方（保持3-5cm距离），每次艾灸15-20分钟。</view>
+    </view>
+    <view class="step-item">
+      <view class="step-num">4</view>
+      <view class="step-desc">艾灸后注意保暖，避免立即洗澡/吹风，多喝温水。</view>
+    </view>
+
+    <view class="section-title">适合人群</view>
+    <view class="tag-list">
+      <view class="tag">虚寒体质</view>
+      <view class="tag">免疫力低下</view>
+      <view class="tag">湿气较重</view>
+    </view>
+
+    <view class="section-title">注意事项</view>
+    <view class="note-desc">阴虚火旺、孕妇、皮肤破溃者不宜艾灸；艾灸时若有灼热刺痛感，应立即调整距离或停止。</view>
+  </view>
+  <view class="author-area">
+    <image src="/assets/微信图片_2025-10-02_104635_943.jpg" class="author-avatar" />
+    <view class="author-info">
+      <view class="author-name">养生小达人</view>
+      <view class="author-desc">专注中医养生科普，分享实用养生技巧</view>
+    </view>
+    <button class="follow-btn">关注</button>
+  </view>
+  <view class="related-title">相关推荐</view>
+  <view class="related-list">
+    <block wx:for="{{relatedList}}" wx:key="id">
+      <view class="related-item">
+        <image src="{{item.cover}}" class="related-cover" />
+        <view class="related-title">{{item.title}}</view>
+        <view class="related-play">{{item.play}}万次播放</view>
+      </view>
+    </block>
+  </view>
+</view>
